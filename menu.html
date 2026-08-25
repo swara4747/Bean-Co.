@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean & Co.</title>
+    
+    <!-- PASTE THE NEW FONT LINKS HERE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,600&family=League+Spartan:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Your main stylesheet comes right after -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a href="index.html" class="logo">BEAN & CO.</a>
+    <nav class="main-nav">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="menu.html">MENU</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+</header>
+
+<main>
+    <section class="page-header">
+        <div class="container">
+            <span class="sub-heading">Thoughtfully Sourced</span>
+            <h1>Our Menu</h1>
+            <p>Seasonal offerings, artisan espresso, and fresh daily pastries.</p>
+        </div>
+    </section>
+
+        <section class="menu-display-section">
+            <div class="container">
+                <div class="filter-tabs">
+                    <button class="tab-btn active" data-category="all">All Items</button>
+                    <button class="tab-btn" data-category="coffee">Coffee & Espresso</button>
+                    <button class="tab-btn" data-category="tea">Teas & Drinks</button>
+                    <button class="tab-btn" data-category="bakery">Bakery & Eats</button>
+                </div>
+
+                <div class="menu-card-grid">
+                    <div class="menu-card" data-category="coffee">
+                        <div class="menu-card-img"><img src="images/house-espresso-shot.jpg" alt="House Espresso Shot"></div>
+                        <div class="menu-card-details">
+                            <div class="menu-card-header"><h3>House Espresso</h3><span class="price">$3.50</span></div>
+                            <p>Balanced double shot with deep notes of dark chocolate and citrus zest.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card" data-category="coffee">
+                        <div class="menu-card-img"><img src="images/pour-over-single-origin.jpg" alt="Pour Over Single Origin"></div>
+                        <div class="menu-card-details">
+                            <div class="menu-card-header"><h3>Pour Over</h3><span class="price">$4.75</span></div>
+                            <p>Hand-poured filter coffee using our weekly rotating micro-lot Ethiopian beans.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card" data-category="coffee">
+                        <div class="menu-card-img"><img src="images/oat-milk-latte.jpg" alt="Oat Milk Latte"></div>
+                        <div class="menu-card-details">
+                            <div class="menu-card-header"><h3>Oat Milk Latte</h3><span class="price">$5.25</span></div>
+                            <p>Signature espresso blend paired with velvety micro-steamed organic oat milk.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card" data-category="tea">
+                        <div class="menu-card-img"><img src="images/matcha-latte.jpg" alt="Matcha Latte"></div>
+                        <div class="menu-card-details">
+                            <div class="menu-card-header"><h3>Ceremonial Matcha</h3><span class="price">$5.75</span></div>
+                            <p>First-harvest Uji matcha whisked with warm almond milk and raw agave.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card" data-category="tea">
+                        <div class="menu-card-img"><img src="images/chai-tea-latte.jpg" alt="Chai Tea Latte"></div>
+                        <div class="menu-card-details">
+                            <div class="menu-card-header"><h3>Spiced Masala Chai</h3><span class="price">$5.00</span></div>
+                            <p>Slow-simmered black tea infused with fresh ginger, cardamom, and cinnamon.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card" data-category="bakery">
+                        <div class="menu-card-img"><img src="images/butter-croissant.jpg" alt="Butter Croissant"></div>
+                        <div class="menu-card-details">
+                            <div class="menu-card-header"><h3>Butter Croissant</h3><span class="price">$4.25</span></div>
+                            <p>72-hour fermented French style butter croissant, golden and flaky.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card" data-category="bakery">
+                        <div class="menu-card-img"><img src="images/avocado-toast.jpg" alt="Avocado Toast"></div>
+                        <div class="menu-card-details">
+                            <div class="menu-card-header"><h3>Sourdough Avo Toast</h3><span class="price">$8.75</span></div>
+                            <p>Thick-cut sourdough, smashed Hass avocado, microgreens, and chili oil.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card" data-category="bakery">
+                        <div class="menu-card-img"><img src="images/almond-scone.jpg" alt="Almond Scone"></div>
+                        <div class="menu-card-details">
+                            <div class="menu-card-header"><h3>Toasted Almond Scone</h3><span class="price">$4.50</span></div>
+                            <p>Buttery scone baked fresh daily with sliced almonds and orange glaze.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">BEAN & CO.</a>
+                <p>Crafting quiet moments & exceptional espresso daily.</p>
+            </div>
+            <div class="footer-info">
+                <p><strong>Location:</strong> 123 Roast Street, Craft District</p>
+                <p>&copy; 2026 Bean & Co. Portfolio Project.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

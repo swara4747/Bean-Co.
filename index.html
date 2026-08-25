@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean & Co.</title>
+    
+    <!-- PASTE THE NEW FONT LINKS HERE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,600&family=League+Spartan:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Your main stylesheet comes right after -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a href="index.html" class="logo">BEAN & CO.</a>
+    <nav class="main-nav">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="menu.html">MENU</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+</header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <span class="sub-heading">Est. 2024 — Craft Roastery</span>
+                <h1>Crafted Coffee, Simple Moments.</h1>
+                <p class="hero-description">Ethically sourced single-origin beans, roasted fresh daily in the heart of the craft district.</p>
+                <div class="hero-buttons">
+                    <a href="menu.html" class="btn btn-primary">Explore Our Menu</a>
+                    <a href="about.html" class="btn btn-secondary">Our Story</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <div class="container highlights-grid">
+                <div class="highlight-card">
+                    <h3>Single Origin</h3>
+                    <p>Directly traded from small-batch farms across Latin America and East Africa.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Artisan Pastries</h3>
+                    <p>Baked in-house every morning using organic local sourdough and butter.</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>Cozy Sanctuary</h3>
+                    <p>Designed with warm timber, leather armchairs, and acoustic ambient calm.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEDIUM SIZED SLIDER CAROUSEL -->
+        <section class="featured-slider-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-heading">Barista Picks</span>
+                    <h2>Featured Creations</h2>
+                </div>
+
+                <div class="slider-wrapper">
+                    <button class="slider-btn prev-btn" id="slideLeft" aria-label="Previous Slide">‹</button>
+                    
+                    <div class="slider-track" id="sliderTrack">
+                        <div class="slider-card">
+                            <div class="card-img-wrapper">
+                                <img src="images/smoked-honey-latte.jpg" alt="Smoked Honey Latte">
+                            </div>
+                            <div class="card-content">
+                                <h3>Smoked Honey Latte</h3>
+                                <p class="price">$5.75</p>
+                                <p>Double shot espresso, wildflower smoked honey, oat milk.</p>
+                            </div>
+                        </div>
+
+                        <div class="slider-card">
+                            <div class="card-img-wrapper">
+                                <img src="images/ethiopian-yirgacheffe.jpg" alt="Ethiopian Yirgacheffe">
+                            </div>
+                            <div class="card-content">
+                                <h3>Ethiopian Yirgacheffe</h3>
+                                <p class="price">$4.75</p>
+                                <p>Hand-poured pour over featuring vibrant floral notes.</p>
+                            </div>
+                        </div>
+
+                        <div class="slider-card">
+                            <div class="card-img-wrapper">
+                                <img src="images/matcha-pistachio-foam.jpg" alt="Matcha Pistachio Foam">
+                            </div>
+                            <div class="card-content">
+                                <h3>Matcha Pistachio</h3>
+                                <p class="price">$6.25</p>
+                                <p>Cold brew topped with house-made sweet pistachio cold foam.</p>
+                            </div>
+                        </div>
+
+                        <div class="slider-card">
+                            <div class="card-img-wrapper">
+                                <img src="images/almond-croissant.jpg" alt="Almond Croissant">
+                            </div>
+                            <div class="card-content">
+                                <h3>Berry Sourdough Danish</h3>
+                                <p class="price">$4.50</p>
+                                <p>72-hour dough filled with organic ricotta and fresh berries.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="slider-btn next-btn" id="slideRight" aria-label="Next Slide">›</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="ticker-gallery-section">
+            <div class="section-header">
+                <span class="sub-heading">@BeanAndCo</span>
+                <h2>Life Around the Counter</h2>
+            </div>
+
+            <div class="ticker-container">
+                <div class="ticker-track">
+                    <div class="ticker-item"><img src="images/gallery-photo-1.jpg" alt="Gallery photo 1"></div>
+                    <div class="ticker-item"><img src="images/gallery-photo-2.jpg" alt="Gallery photo 2"></div>
+                    <div class="ticker-item"><img src="images/gallery-photo-3.jpg" alt="Gallery photo 3"></div>
+                    <div class="ticker-item"><img src="images/gallery-photo-4.jpg" alt="Gallery photo 4"></div>
+                    <div class="ticker-item"><img src="images/gallery-photo-5.jpg" alt="Gallery photo 5"></div>
+                    <div class="ticker-item"><img src="images/gallery-photo-1.jpg" alt="Gallery photo 1"></div>
+                    <div class="ticker-item"><img src="images/gallery-photo-2.jpg" alt="Gallery photo 2"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-heading">Words From Our Community</span>
+                    <h2>Kind Reflections</h2>
+                </div>
+
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <p class="quote">“Bean & Co. has completely ruined other coffee shops for me in the best way possible. Their pour-overs are pure magic.”</p>
+                        <span class="sub-heading">— Clara M., Local Designer</span>
+                    </div>
+
+                    <div class="highlight-card">
+                        <p class="quote">“The smoked honey latte paired with an almond croissant is my Saturday morning ritual. Hands down the best roaster.”</p>
+                        <span class="sub-heading">— Julian R., Coffee Enthusiast</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">BEAN & CO.</a>
+                <p>Crafting quiet moments & exceptional espresso daily.</p>
+            </div>
+            <div class="footer-info">
+                <p><strong>Location:</strong> 123 Roast Street, Craft District</p>
+                <p>&copy; 2026 Bean & Co. Portfolio Project.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
